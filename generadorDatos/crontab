@@ -1,0 +1,3 @@
+# do something every minute
+# using > instead of >> to append a new line at each cron iteration
+* * * * * /usr/local/bin/php /cron_scripts/generadorDatos.php >> /cron_scripts/test_cron.log 2>&1
